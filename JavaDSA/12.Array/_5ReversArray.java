@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //Reverse Array
 
 public class _5ReversArray {
@@ -20,3 +21,27 @@ public class _5ReversArray {
         }
     }
 }
+=======
+//Reverse Array
+
+public class _5ReversArray {
+    public static void reverse(int[] arr) {
+        int start = 0;
+        int end = arr.length-1;
+        while (start<end) {
+            int temporary = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temporary;
+            start++;
+            end--;
+    }
+}
+    public static void main(String[] args) {
+        int[] arr = {2,4,9,7,5};
+        reverse(arr);
+        for(int i=0; i<arr.length; i++) {
+            System.out.print(arr[i]);
+        }
+    }
+}
+>>>>>>> 2602d06755d11123f2a36cf586bb7d6e8a104877
