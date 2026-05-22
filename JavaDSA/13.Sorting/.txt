@@ -1,0 +1,19 @@
+Sorting - 
+     Arrangin elements in a specific orde
+
+FINAL RULE (WRITE THIS IN BRAIN)
+
+If your code uses arr[j + 1]
+then j must NEVER reach the last index.
+
+So loop must stop at:
+length - 2
+
+
+Which is written as:
+j < length - 1
+
+One last ultra-simple sentence
+
+< controls j
+-1 protects j+1
